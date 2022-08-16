@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ninja Quiz</title>
+  </head>
+  <body>
+    <!--Top Section-->
+    <div class="top">
+      <div class="top-content container bg-white">
+        <h1>Anime Quiz</h1>
+      </div>
+    </div>
+    <!--Score Section-->
+     <div class="top-content container scorebox">
+      <div class="noclass">
+        You are a <span class="perSpan" id="span">0%</span> Anime fan!
+      </div>
+
+     </div>
+
+
+    <!--Mid section-->
+    <div>
+      <div class="bg-blue container subheading">
+        <h2>On with the Questions....</h2>
+
+        <form class="quiz-form">
+            <div class=" questions ques-1">
+                <p>Sasuke Uchiha is the character in the Anime ?</p>
+                <div class="answers">
+                    <input type="radio" name="q1" value="A" checked>
+                    <label>One Peice.</label>
+                </div>
+                <div class="answers">
+                    <input type="radio" name="q1" value="B">
+                    <label>Naruto.</label>
+                </div>
+            </div>
+            <div class=" questions ques-2">
+                <p>Who is the main character of the Anime DeathNote ?</p>
+                <div class="answers">
+                    <input type="radio" name="q2" value="A" checked>
+                    <label>L</label>
+                </div>
+                <div class="answers">
+                    <input type="radio" name="q2" value="B" >
+                    <label>Light Yagami</label>
+                </div>
+            </div>
+            <div class=" questions ques-3">
+                <p>What is the ultimate weapon of Ninja?</p>
+                <div class="answers">
+                    <input type="radio" name="q3" value="A" checked>
+                    <label>Ninja sword it is.</label>
+                </div>
+                <div class="answers">
+                    <input type="radio" name="q3" value="B">
+                    <label>The Ninja itself!</label>
+                </div>
+            </div>
+            <div class=" questions ques-4">
+                <p>Saitama is the main character of which Anime ?</p>
+                <div class="answers">
+                    <input type="radio" name="q4" value="A" checked>
+                    <label>Idaten Jump</label>
+                </div>
+                <div class="answers">
+                    <input type="radio" name="q4" value="B">
+                    <label>One Punch Man</label>
+                </div>
+            </div>
+            <div class="submitbtn">
+                <input type="submit" class="btn">
+            </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
